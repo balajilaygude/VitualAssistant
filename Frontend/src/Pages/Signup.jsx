@@ -41,7 +41,7 @@ export default function Signup() {
   }
 
   return (
-    <div className="w-full h-screen bg-cover bg-center flex justify-center items-center" style={{ backgroundImage: `url(${authBg})` }}>
+    <div className="w-full h-screen bg-cover bg-center fle  bg-[url('/authBg.png')]x justify-center items-center">
       <form
         onSubmit={handleSignup}
         className="w-100 h-4/5 bg-blue-900/15 shadow-lg shadow-black rounded backdrop-blur-md
