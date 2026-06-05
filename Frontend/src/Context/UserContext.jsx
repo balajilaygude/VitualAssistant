@@ -7,7 +7,7 @@ export default function UserContext({ children }) {
   const [backendImage, setBackendImage] = useState(null);
   const [selectedImage, setSelectedImage] = useState(null);
 
-  const serverURL = "http://localhost:3000";
+  const serverURL = "https://vitualassistant-backend.onrender.com";
   async function geminiResponse(command) {
     try {
       const result = await axios.post(
