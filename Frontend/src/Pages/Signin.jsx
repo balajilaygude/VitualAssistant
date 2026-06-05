@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { IoEye } from "react-icons/io5";
 import { IoEyeOff } from "react-icons/io5";
 import { useNavigate } from "react-router-dom";
+import authBg from "../assets/authBg.png";
 import { userDataContext } from "../Context/UserContext";
 import axios from "axios";
 
@@ -38,7 +39,7 @@ export default function Signin() {
   }
 
   return (
-    <div className="w-full h-screen bg-[url(./authBg.png)] bg-cover bg-center flex justify-center items-center">
+    <div className="w-full h-screen bg-cover bg-center flex justify-center items-center" style={{ backgroundImage: `url(${authBg})` }}>
       <form
         onSubmit={handleSignin}
         className="w-100 h-4/5 bg-blue-900/15 shadow-lg shadow-black rounded backdrop-blur-md
