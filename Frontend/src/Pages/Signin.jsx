@@ -39,7 +39,7 @@ export default function Signin() {
   }
 
   return (
-    <div className="w-full h-screen bg-cover bg-center flex justify-center items-center" style={{ backgroundImage: `url(${authBg})` }}>
+    <div className="w-full h-screen bg-cover  bg-[url('/authBg.png')] bg-center flex justify-center items-center" >
       <form
         onSubmit={handleSignin}
         className="w-100 h-4/5 bg-blue-900/15 shadow-lg shadow-black rounded backdrop-blur-md
