@@ -95,6 +95,15 @@ Managing authentication state, user data, and AI conversations across multiple c
 Live Demo:
 https://vitualassistant.onrender.com/
 
+## Some Pages and Video
+<img width="1918" height="912" alt="Screenshot 2026-06-13 200806" src="https://github.com/user-attachments/assets/2ea66b28-2de2-4375-b0be-17415b0701df" />
+<img width="1918" height="967" alt="Screenshot 2026-06-13 200516" src="https://github.com/user-attachments/assets/da5209db-1f10-438e-9fc7-ec5133e8a2de" />
+
+
+
+<img width="1918" height="966" alt="Screenshot 2026-06-13 200224" src="https://github.com/user-attachments/assets/4a944337-3714-4151-9aa3-1de1fef7e6b9" />
+
+
 ## Impact
 
 This project demonstrates full-stack development skills, secure authentication practices, third-party API integration, cloud storage management, and modern React application architecture. It showcases the ability to build a production-ready AI-powered application using the MERN stack.
