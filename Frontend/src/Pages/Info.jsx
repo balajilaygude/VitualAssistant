@@ -70,13 +70,13 @@ export default function Info() {
 
         <div className="grid md:grid-cols-2 gap-8">
           <img
-            src="https://images.unsplash.com/photo-1675557009875-436f4f2ec0d7"
+            src={Ai1}
             alt="Demo 1"
             className="rounded-2xl border border-gray-800"
           />
 
           <img
-            src="https://images.unsplash.com/photo-1676299081847-824916de030a"
+            src={Ai2}
             alt="Demo 2"
             className="rounded-2xl border border-gray-800"
           />
