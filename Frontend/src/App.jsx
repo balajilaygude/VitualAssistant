@@ -11,6 +11,7 @@ import Navbar from './Components/Navbar'
 
 function App() {
   const {userdata,setUserData}=useContext(userDataContext)
+  console.log("userdata", userdata);
 
   return (
     <>
@@ -21,9 +22,8 @@ function App() {
       <Route path="/dashboard" element={(userdata?.assistantImage && userdata.assistantName) ?
       <Home/>: <Navigate to={"/customize"}/>     }/>
 
-
-      <Route path="/signin" element={!userdata ? <Signin/>:<Navigate to={"/"}/>}/>
-      <Route path="/signup" element={!userdata ? <Signup/>:<Navigate to={"/"}/>}/>
+      <Route path="/signin" element={!userdata ? <Signin/>:<Navigate to={"/dashboard"}/>}/>
+      <Route path="/signup" element={!userdata ? <Signup/>:<Navigate to={"/dashboard"}/>}/>
 
       <Route path="/customize" element={userdata?<Customize/>:<Navigate to={"/signup"}/>}/>
       <Route path="/customize2" element={userdata?<Customize2/>:<Navigate to={"/signup"}/>}/>
