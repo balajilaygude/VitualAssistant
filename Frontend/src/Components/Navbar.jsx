@@ -23,7 +23,7 @@ export default function Navbar() {
 
         {/* Show only when user is NOT logged in */}
         {!userdata && (
-          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+          <div className="flex items-center gap-4 sm:gap-6">
             <Link
               to="/"
               className="text-white hover:text-blue-500 transition"
