@@ -6,17 +6,22 @@ import Customize from './Pages/Customize'
 import { userDataContext } from './Context/UserContext'
 import Home from './Pages/Home'
 import Customize2 from './Pages/Customize2'
+import Info from './Pages/Info'
 
 function App() {
   const {userdata,setUserData}=useContext(userDataContext)
 
   return (
     <Routes>
-      
-      <Route path="/" element={(userdata?.assistantImage && userdata.assistantName) ?
+      <Route path="/" element={<Info/>}/>
+
+      <Route path="/dasboard" element={(userdata?.assistantImage && userdata.assistantName) ?
       <Home/>: <Navigate to={"/customize"}/>     }/>
+
+
       <Route path="/signin" element={!userdata ? <Signin/>:<Navigate to={"/"}/>}/>
       <Route path="/signup" element={!userdata ? <Signup/>:<Navigate to={"/"}/>}/>
+
       <Route path="/customize" element={userdata?<Customize/>:<Navigate to={"/signup"}/>}/>
       <Route path="/customize2" element={userdata?<Customize2/>:<Navigate to={"/signup"}/>}/>
 
