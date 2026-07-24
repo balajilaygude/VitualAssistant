@@ -8,6 +8,8 @@ import {
   FaNodeJs,
 } from "react-icons/fa";
 import { SiMongodb, SiTailwindcss, SiGooglegemini } from "react-icons/si";
+import Ai1 from "../assets/Ai1.png"
+import Ai2 from "../assets/Ai2.png"
 
 export default function Info() {
   return (
