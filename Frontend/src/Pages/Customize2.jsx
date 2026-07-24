@@ -27,7 +27,7 @@ console.log("type:", typeof backendImage);
       setLoading(false)
       console.log(result.data)
       setUserData(result.data)
-      navigate("/dasboard")
+      navigate("/dashboard")
     } catch (error) {
       setLoading(false)
       console.log(error.response?.data?.message)

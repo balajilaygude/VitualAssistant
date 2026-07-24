@@ -30,7 +30,7 @@ export default function Signin() {
       );
       setUserData(result.data)
       setLoading(false);
-      navigate("/dasboard")
+      navigate("/dashboard")
     } catch (error) {
       setUserData(null)
       setErr(error.response.data.message);

@@ -35,7 +35,7 @@ export default function Customize() {
   return (
     <div className="w-full p-5 min-h-screen bg-linear-to-t from-black to-indigo-900 flex flex-col justify-center items-center">
       <MdArrowBack className="text-white text-4xl cursor-pointer absolute top-5 left-5"
-            onClick={()=>navigate("/dasboard")}/>
+            onClick={()=>navigate("/dashboard")}/>
       <h2 className="text-white text-2xl mb-3 font-semibold">
         Select your <span className="text-blue-600">Virtual Assistant</span>
       </h2>

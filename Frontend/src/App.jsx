@@ -18,7 +18,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Info/>}/>
 
-      <Route path="/dasboard" element={(userdata?.assistantImage && userdata.assistantName) ?
+      <Route path="/dashboard" element={(userdata?.assistantImage && userdata.assistantName) ?
       <Home/>: <Navigate to={"/customize"}/>     }/>
 
 
