@@ -22,7 +22,7 @@ export default function Info() {
               MERN + Gemini AI
             </span>
 
-            <h1 className="text-5xl md:text-6xl font-bold mt-6 leading-tight">
+            <h1 className="text-[40px] md:text-6xl font-bold mt-6 leading-tight">
               AI Virtual Assistant
               <span className="text-blue-500"> (Jarvis Inspired)</span>
             </h1>
