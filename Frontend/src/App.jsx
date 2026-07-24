@@ -7,11 +7,14 @@ import { userDataContext } from './Context/UserContext'
 import Home from './Pages/Home'
 import Customize2 from './Pages/Customize2'
 import Info from './Pages/Info'
+import Navbar from './Components/Navbar'
 
 function App() {
   const {userdata,setUserData}=useContext(userDataContext)
 
   return (
+    <>
+    <Navbar/>
     <Routes>
       <Route path="/" element={<Info/>}/>
 
@@ -27,6 +30,7 @@ function App() {
 
 
     </Routes>
+    </>
   )
 }
 
