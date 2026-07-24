@@ -37,14 +37,14 @@ export default function Info() {
             <div className="flex gap-4 mt-10">
               <Link
                 to="/signup"
-                className="px-7 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 transition"
+                className="px-7 py-3 rounded-xl bg-blue-600 hover:bg-white hover:text-blue-500 transition"
               >
                 Get Started
               </Link>
 
               <Link
                 to="/signin"
-                className="px-7 py-3 rounded-xl border border-gray-700 hover:bg-gray-800 transition"
+                className="px-7 py-3 rounded-xl border hover:bg-white hover:text-blue-500 border-gray-700 hover:bg-gray-800 transition"
               >
                 Sign In
               </Link>
